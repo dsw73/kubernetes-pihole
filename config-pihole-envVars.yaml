@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  ServerIP: 192.168.2.230
+  DNS1: 127.0.0.1
+  DNS2: 1.1.1.1
+  WEBPASSWORD: admin
+  TZ: Europe/Amsterdam
+metadata:
+  name: pihole-config
